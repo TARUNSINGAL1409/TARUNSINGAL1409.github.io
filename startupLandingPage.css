@@ -1,0 +1,26 @@
+body {
+	background-image: url("header.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center ;
+}
+
+.container {
+	font-family: roboto;
+	color: white ;
+    font-size: 3vw;
+    text-align: center ; 
+    justify-content: center ;
+    margin-top: 3vw ;
+}
+
+button {
+	background-color : orange ; 
+     margin-top: 13vw ;
+     margin-left: 40vw ; 
+     padding: 1vw 2vw ;
+     font-size: 2vw;
+     cursor: pointer;
+     border-radius: 3vw ;
+     border : 0px ;
+}
