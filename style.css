@@ -1,3 +1,12 @@
+body , html {
+    width : 100%;
+    height : 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
 body {
 	background-image: url("header.jpg") ;
 	background-repeat: no-repeat;
@@ -9,19 +18,19 @@ h1 {
     display: flex ; 
 	font-family: roboto;
 	color: white ;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center ;
     justify-content: center ;
-    margin-top:3% ;
+    margin-top:150px;
 }
 
 .button {
     display: flex ;
     justify-content: center ; 
-    margin-top: 15%;
+    margin-top: 100px;
 }
 
-button {
+input {
     font-family: times new roman ;
 	background-color : orange ; 
      padding: 10px 20px ;
@@ -29,9 +38,11 @@ button {
      cursor: pointer;
      border-radius: 30px ;
      border : 0px ;
+     transition: 1s ;
 }
 
-button:hover { 
+input:hover { 
    background-color : green;
    color : white; 
+   transform: scale(1.1);
  }
