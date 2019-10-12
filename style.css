@@ -27,22 +27,24 @@ h1 {
 .bun {
     display: flex ;
     justify-content: center ; 
-    margin-top: 190px;
+    margin-top: 220px;
 }
 
 input {
     font-family: times new roman ;
-	background-color : orange ; 
+	background-color : #b3b3b3; 
      padding: 10px 20px ;
      font-size: 20px;
      cursor: pointer;
      border-radius: 30px ;
      border : 0px ;
      transition: 1s ;
+     border-color: #262626;
+     border-width: 20px; 
 }
 
 input:hover { 
-   background-color : green;
+   background-color : #808080;
    color : white; 
    transform: scale(1.1);
  }
