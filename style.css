@@ -30,6 +30,11 @@ h1 {
     margin-top: 220px;
 }
 
+.bun:hover{
+    border-style: none;
+    transform: scale(1.1);
+}
+
 input {
     font-family: times new roman ;
 	background-color : #b3b3b3; 
